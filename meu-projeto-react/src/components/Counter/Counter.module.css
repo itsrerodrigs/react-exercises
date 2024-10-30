@@ -1,0 +1,44 @@
+.contadorContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+
+.imagemCafe{
+    width: 10%;
+    height: auto;
+    margin: 0.9rem;
+    justify-content: center;
+}
+
+.botoesContainer{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+    color: rgb(165, 165, 165);
+    margin: 0 10px;
+    font-weight: 100;
+    text-transform: lowercase;
+
+}
+
+button {
+    padding: 8px 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 1000px;
+    background-color: #e5c7c7;;
+    color: white;
+    
+}
